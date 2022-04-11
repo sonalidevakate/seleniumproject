@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Zerodha">
+  <test thread-count="5" name="BUY-SELL">
+   <groups>
+ 	 	<run>
+  			<include name = "sell"/> 
+  			<include name = "login"/>      
+  			 
+  		</run>
+   </groups>
+   
+        <classes>
+      <class name="TestngTestSuite.Demo1"/>
+            <class name="TestngTestSuite.Demo2"/>
+                  <class name="TestngTestSuite.Demo3"/>
+            
+      
+    </classes>
+  </test> <!-- BUY-SELL -->
+</suite> <!-- Zerodha -->
